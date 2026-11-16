@@ -4,6 +4,7 @@ name: Syntax Check, Install & Test
 on:
   - pull_request
   - push
+  - workflow_dispatch
 
 jobs:
   syntax-check-install-test:
